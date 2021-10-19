@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string Name, Age, Address;
+
+	cout << "Please enter your Name: \n"; 
+	cin >> Name;
+	cout << "\nPlease enter your Age: \n";
+	cin >> Age;
+	cout << "\nPlease enter your Address: \n";
+	cin >> Address;
+	cout << "\nYour beautiful Name is:  \n" << Name;
+	cout << "\nYour Age is: \n" << Age;
+	cout << "\nYour Address is: \n" << Address;
+
+}
