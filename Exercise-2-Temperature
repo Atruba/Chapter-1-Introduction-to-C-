@@ -7,8 +7,8 @@ int main()
 	double x;
 	double y;
 
-	cout << "Please Enter the temperature in Fahrenheit that is to be converted into celcius\n";
+	cout << "Please Enter the temperature in Fahrenheit that is to be converted into celsius\n";
 	cin >> x;
 	y = (x - 32) * 0.5556;
-	cout << "The temperature in celcius is: " << y << endl;
+	cout << "The temperature in celsius is: " << y << endl;
 }
