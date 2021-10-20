@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	double a, r, c; //The Area, radius and circumference variables 
+	cout << "Input the radius (1/2 of diameter) of a circle: \n"; //this line asks the user to input radius value
+	cin >> r;
+	a = 3.14 * r * r; //this line is showing the mathematical operation that is going to be carried out
+	c = 2 * 3.14 * r;
+	cout << "The area of the circle is: \n" << a << endl; //this line will automatically display the area
+	cout << "The circumference of the circle is: \n" << c << endl; //this line will automatically display the circumference
+
+	return 0;
